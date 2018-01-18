@@ -1,0 +1,57 @@
+
+html { 
+		  background: url(../images/qwe.jpg) no-repeat center center fixed; 
+		  -webkit-background-size: cover;
+		  -moz-background-size: cover;
+		  -o-background-size: cover;
+		  background-size: cover;
+		  font-family:Palatino Linotype;
+}
+
+
+
+.prof-box {
+		width: 480px;
+		height: 410px;
+		background: rgba(12, 9, 9, 0.67);
+		padding: 40px;
+		color: white;
+		margin: 0 auto;
+		margin-top: 140px;
+		text-align: center;
+}
+
+
+ .img{
+	 	border-radius: 75px;
+	 	height: 170px;
+	 	width: 120px;
+ }
+
+ h1 {
+        font-weight: 10%;
+        letter-spacing: 2;
+        font-size: 40px;
+ }
+
+ h4{
+	 	font-weight: bolder;
+	    letter-spacing: 1;
+	    font-size: 20px;
+ }
+
+ p{
+ 		font-weight: 100%;
+	 	font-family: cursive;
+	    letter-spacing: 1;
+	    font-weight: 300;
+ }
+
+.social-icon {
+	font-size: 30px;
+	letter-spacing: 2;
+}
+
+.social-icon a {
+	color: white;
+}
