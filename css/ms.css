@@ -12,12 +12,12 @@ html {
 
 .prof-box {
 		width: 480px;
-		height: 410px;
+		height: 480px;
 		background: rgba(12, 9, 9, 0.67);
 		padding: 40px;
 		color: white;
 		margin: 0 auto;
-		margin-top: 140px;
+		margin-top: 75px;
 		text-align: center;
 }
 
@@ -54,4 +54,35 @@ html {
 
 .social-icon a {
 	color: white;
+}
+
+
+
+.button {
+    background-color: rgba(181, 167, 218, 0.4);
+    border-radius: 100px;
+    border: none;
+    color: whitesmoke;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 17px;
+    font-weight: 900;
+    font-family: monospace;
+    letter-spacing: 2;
+    margin: 4px 2px;
+    -webkit-transition-duration: 0.2s; 
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+.button5 {
+    background-color: rgba(181, 167, 218, 0.4);
+    color: white;
+    border: 2px solid #555555;
+}
+
+.button5:hover {
+    background-color: black;
+    color: white;
 }
