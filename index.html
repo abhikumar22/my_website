@@ -839,13 +839,32 @@
    		<div class="col-twelve">
 
             <!-- form -->
-			<form action="https://formspree.io/abhi.ckp1002@gmail.com" method="POST">
-			  <input type="text" placeholder="Name" name="name">
-			  <input type="email" placeholder="Email" name="_replyto">
-			  <input type="text" placeholder="Subject" name="subject">
-		          <textarea name="message" placeholder="Message" placeholder="Message" rows="5" cols="50" required=""></textarea>
-			  <input class="submitform" type="submit" value="Send">
-			</form>
+			<!-- <form action="https://formspree.io/abhi.ckp1002@gmail.com" method="POST"> -->
+			  <!-- <input type="text" placeholder="Name" name="name"> -->
+			  <!-- <input type="email" placeholder="Email" name="_replyto"> -->
+			  <!-- <input type="text" placeholder="Subject" name="subject"> -->
+		          <!-- <textarea name="message" placeholder="Message" placeholder="Message" rows="5" cols="50" required=""></textarea> -->
+			  <!-- <input class="submitform" type="submit" value="Send"> -->
+			<!-- </form> -->
+			
+			
+			<form name="contactForm" id="contactForm" action="https://formspree.io/abhi.ckp1002@gmail.com" method="POST">
+				<fieldset>
+					<div class="form-field">
+						<input type="text" placeholder="Name" name="name">
+					</div>
+					<div class="form-field">
+						<input type="email" placeholder="Email" name="_replyto">
+					</div>
+					<div class="form-field">
+						<input type="text" placeholder="Subject" name="subject">
+					</div>
+					<div class="form-field">
+						<textarea name="message" placeholder="Message" placeholder="Message" rows="5" cols="50" required=""></textarea>
+					</div>
+					<input class="submitform" type="submit" value="Send">
+				</fieldset>
+		    </form>
 			
 			
 <!--             <form name="contactForm" id="contactForm" action="https://formspree.io/abhi.ckp1002@gmail.com" method="POST">
@@ -877,14 +896,6 @@
 
       			</fieldset>
       		</form> <!-- Form End -->
-
-            <!-- contact-warning -->
-            <div id="message-warning">            	
-            </div>            
-            <!-- contact-success -->
-      		<div id="message-success">
-               <i class="fa fa-check"></i>Your message was sent, thank you!<br>
-      		</div>
 
          </div> <!-- /col-twelve -->
    		
