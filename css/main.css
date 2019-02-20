@@ -1552,6 +1552,12 @@ header .logo a {
 .about-content .skill-bars {
 	margin-top: 6rem;
 }
+#buttoncontact {
+	margin-top:10px;
+	margin:0 auto;
+    display:block;
+	background-color: #FF0077;
+}
 
 .button-section {
 	text-align: center;
