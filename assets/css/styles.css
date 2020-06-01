@@ -62,3 +62,10 @@ html {
         display: none;
     }
 }
+body.modal-open {
+  overflow: hidden;
+}
+
+body {
+  overflow-x: hidden;
+}
