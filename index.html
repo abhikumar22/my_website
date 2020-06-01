@@ -23,7 +23,7 @@
          <h2 class="mt-4 mb-0 pb-0"><strong>Abhishek Kumar</strong></h2>
          <p class="text-muted">Full Stack Developer</p>
 
-         <ul class="vcard-details mb-3 text-center pl-0 ml-0 pb-3">
+         <ul class="vcard-details mb-1 text-center pl-0 ml-0 pb-3">
             <li itemprop="homeLocation" show_title="false" aria-label="Home location: Bengaluru"
                class="vcard-detail pt-1 css-truncate css-truncate-target"><svg class="octicon octicon-location"
                   viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true">
@@ -46,9 +46,10 @@
          </ul>
 
          <div class="row px-5">
-            <button class="col btn btn-primary mb-5">Hire Me</button>
+            <a class="col btn btn-primary mb-5" data-toggle="modal" data-target="#myModal">Hire Me</a>
             <a id="portfolioButton" href="#right-bar" class="col btn btn-primary  mb-5">Portfolio</a>
          </div>
+         
 
 
          <div class="mr-0 p-0 pr-0 row mx-auto pb-4 col-sm-8 col-8 col-md-8 col-lg-10 col-xl-10">
@@ -70,14 +71,19 @@
                class="col col-sm col-md col-lg col-xl p-0" type="button" role="button"><i
                   class="fab fa-stack-overflow"></i></a>
          </div>
+         <footer>
+            <small>&copy; Copyright 2020 @abhikumar22 <br>
+               <!-- Made with <i class="fa fa-heart"></i></small> -->
+            <!-- <small>, Made with <i class="fa fa-heart"></i></small> -->
+    </footer>
          <!-- </div> -->
       </div>
    </div>
    <div id="right-bar" class="col-sm-9 col-md-9 col-lg-9 col-xl-9" style="background-color:#FAFBFC;">
-      <div class="mx-auto text-dark mt-5">
-         <!-- <h2>My Projects</h2>
-         <p class="f4 mb-4 text-gray">GitHub repositories that I've built.</p> -->
-         <div class="d-sm-flex flex-wrap gutter-condensed mb-4">
+      <div class="mx-auto text-dark mt-3">
+         <h2 class=" mx-3"><strong>Projects</strong> </h2> 
+         <!-- <p class="f4 mb-4 text-gray">GitHub repositories that I've built.</p> -->
+         <div class="d-sm-flex flex-wrap gutter-condensed mb-4 mt-4">
             <div class="col-sm-12 col-md-6 col-lg-4 col-xl-4 mb-3">
                <div
                   class="github-component d-flex flex-column flex-justify-between height-full text-left border border-gray-light bg-white rounded-1 p-3">
@@ -565,6 +571,40 @@
             </div>
          </div>
 
+      </div>
+   </div>
+
+   <!-- {/* The Modal */} -->
+   <div class="modal fade" id="myModal">
+      <div class="modal-dialog modal-dialog-centered">
+         <div class="modal-content">
+
+            <!-- Modal Header  -->
+            <div class="modal-header text-center d-flex justify-content-center align-items-center">
+               <h3 class="modal-title">I'd Love To Hear From You</h3>
+               <!-- <p class="">I'd Love To Hear From You</p> -->
+               <button type="button" class="close" data-dismiss="modal">&times;</button>
+            </div>
+
+            <!-- Modal body -->
+            <div class="modal-body">
+               <form action="https://formspree.io/abhi.ckp1002@gmail.com" method="POST">
+                  <div class="form-group">
+                     <input type="email" class="form-control" placeholder="Email" id="email" name="From" required />
+                  </div>
+                  <div class="form-group">
+                     <input type="text" class="form-control" placeholder="Subject" id="subject" name="subject"
+                        required />
+                  </div>
+                  <div class="form-group w-100">
+                     <textarea class="input1" name="Message" placeholder="Message" required></textarea>
+                  </div>
+                  <div class="w-100 justify-content-center">
+                     <button type="submit" class="btn btn-primary w-100">Submit</button>
+                  </div>
+               </form>
+            </div>
+         </div>
       </div>
    </div>
 </div>
